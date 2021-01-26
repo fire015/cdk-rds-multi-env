@@ -1,0 +1,14 @@
+{
+  "app": "npx ts-node bin/stacks.ts",
+  "context": {
+    "app:name": "medi",
+    "app:prodAwsAccountNumber": "",
+    "app:prodAwsRegion": "us-east-1",
+    "app:testAwsAccountNumber": "",
+    "app:testAwsRegion": "us-east-1",
+    "@aws-cdk/core:enableStackNameDuplicates": "true",
+    "aws-cdk:enableDiffNoFail": "true",
+    "@aws-cdk/core:stackRelativeExports": "true",
+    "@aws-cdk/aws-ecr-assets:dockerIgnoreSupport": true
+  }
+}

@@ -1,0 +1,5 @@
+node_modules
+.cdk.staging
+cdk.out
+outputs.json
+cdk.context.json
